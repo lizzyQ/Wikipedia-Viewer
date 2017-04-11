@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+   <div class="text-center">
+     <a class="btn btn-default" id="rdm" target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">
+       <span class="glyphicon glyphicon-link"></span>
+       Open Random Article In A New Window
+     </a>
+     <div class="search-group">
+       <input type="text" name="keyword" class="keyword" placeholder="Search for..."></input>
+       <button class="btn btn-default" id="search"><span class="glyphicon glyphicon-search"></span>
+       </button>
+     <div class="scroll-box">
+         <ul class="output">
+
+         </ul>
+     </div><!--overflow box-->
+    </div><!--search group over-->
+  </div><!--center over-->
+</div><!--row over-->
+</div><!--container over-->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
